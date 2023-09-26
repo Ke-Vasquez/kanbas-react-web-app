@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/Kanbas/Courses/Assignments/index.html">
+    <form action="/Kanbas/Courses/Assignments/screen.html">
         <select>
             <option id="speedGrader"> SpeedGrader </option>
         </select>
@@ -37,10 +37,35 @@
         </select>
         <br/>
         <br/>
+        Submission type
+        <br/>
+        <select>
+            <option id="submission-type"> Online </option>
+        </select>
+        <br/>
+        <br/>
+        Online Entry Options
+        <br/>
+        <input id="online-entry-text" type="checkbox">
+        <label for="online-entry-text" id="online-entry-text"> Text Entry</label>
+        <br/>
+        <input id="online-entry-web" type="checkbox">
+        <label for="online-entry-web" id="online-entry-web"> Website URL</label>
+        <br/>
+        <input id="online-entry-med" type="checkbox">
+        <label for="online-entry-med" id="online-entry-med"> Media Recordings </label>
+        <br/>
+        <input id="online-entry-stud" type="checkbox">
+        <label for="online-entry-stud" id="online-entry-stud"> Student Annotation </label>
+        <br/>
+        <input id="online-entry-fil" type="checkbox">
+        <label for="online-entry-fil" id="online-entry-fil">File Uploads </label>
+        <br/>
+        <br/>
         Submission Attempts
         <br/>
         <select>
-            <option id="submission-type"> Unlimited </option>
+            <option id="submission-attempt"> Unlimited </option>
         </select>
         <br/>
         <br/>
@@ -63,8 +88,6 @@
         <label for="prd"> Require Peer Reviews </label>
         <br/>
         <br/>
-        Assign
-        <br/>
         Assign to
         <br/>
         <input type="text" id="assign-to" value="Everyone">
@@ -78,6 +101,11 @@
         Available From
         <br/>
         <input type="date" id="available-from" value="2021-01-01">
+        <br/>
+        <br/>
+        Until
+        <br/>
+        <input type="date" id="until-box" value="2021-01-01">
         <br/>
         <br/>
         <button > Cancel </button>
