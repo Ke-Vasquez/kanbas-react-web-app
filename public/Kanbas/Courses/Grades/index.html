@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select>
+        <option value="gradebook"> Gradebook </option>
+    </select>
+    <button> Import </button>
+    <select>
+        <option value="export"> Export </option>
+    </select>
+    <button> Configure </button>
+    <h3> Student Names</h3> 
+    <input placeholder="Search Students">
+    <h3> Assignment Names </h3>
+    <input placeholder="Search Assignments"> 
+    <br/> 
+    <br/>
+    <button> Apply Filters </button>
+    <br/>
+    <br/>
+    <table width="100%" border="1">
+        <thead>
+            <tr>
+                <th>Student Name </th>
+                <th> A1 Setup </th>
+                <th> A2 HTML</th>
+                <th> A3 CSS</th>
+                <th> A4 BOOTSTRAP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Tyler Okonma </td>
+                <td align="center"> <input id="tyler_a1" type="number" max="100" min="0" step="1" value="100"> </td>
+                <td align="center"> <input id="tyler_a2" type="number" max="100" min="0" step="1" value="80">  </td>
+                <td align="center"> 80 </td>
+                <td align="center"> 95 </td>
+            </tr>
+            <tr>
+                <td> Frank Ocean </td>
+                <td align="center"> 15 </td>
+                <td align="center"> <input id="f0_a2" type="number" max="100" min="0" step="1" value="50">  </td>
+                <td align="center"> <input id="fo_a3" type="number" max="100" min="0" step="1" value="75"> </td>
+                <td align="center"> 35 </td>
+            </tr>
+            <tr>
+                <td> Baby Keem </td>
+                <td align="center"> 15 </td>
+                <td align="center"> 100  </td>
+                <td align="center"> 80 </td>
+                <td align="center"> <input id="bk_a3" type="number" max="100" min="0" step="1" value="55"> </td>
+            </tr>
+            <tr>
+                <td> Kendrick Lamar </td>
+                <td align="center"> <input id="kl_a1" type="number" max="100" min="0" step="1" value="0"> </td>
+                <td align="center"> <input id="kl_a2" type="number" max="100" min="0" step="1" value="100">  </td>
+                <td align="center"> 98 </td>
+                <td align="center"> 99 </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
