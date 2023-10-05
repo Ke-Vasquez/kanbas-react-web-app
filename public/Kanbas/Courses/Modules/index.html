@@ -4,70 +4,337 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../../../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../vendors/fontawesome/css/all.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<button>Collapse All</button>
-<button>View Progress</button>
-
-<select>
-  <option>Publish All</option>
-  <option>Publish All modules and items</option>
-  <option>Publish modules only</option>
-  <option>UnPublish All</option>
-</select>
-
-<button>Module</button>
-<ul>
-    <li>
-        Week 0 - INTRO
-        <ul>
-            <li>
-                LEARNING OBJECTIVES
-                <ul>
-                    <li>Introduction to the course</li>
-                    <li>Learn what is Web Development</li>
-                    <li>Creating a development environment</li>
-                    <li>Creating a Web Application</li>
-                    <li>Getting started with the 1st assignment</li>
-                </ul>
-            </li>
-            <li>
+<div class="wd-modules col">
+<div class="d-flex float-end wd-right-most-buttons">
+    <button class="btn btn-light wd-btn-class">Publish All </button>
+    <button class="btn btn-light wd-btn-class">View Progress </button>
+    <div class="dropdown">
+        <button class="btn btn-light dropdown-toggle wd-pub-form" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Publish <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Publish All modules and items</a></li>
+            <li><a class="dropdown-item" href="#">Publish modules only</a></li>
+            <li><a class="dropdown-item" href="#">UnPublish All</a></li>
+          </ul>
+        </button>
+    </div>
+    <button class="btn btn-danger wd-pub"> <i class="fas fa-plus" style="color: #ffffff;"></i> Module</button>
+    <button class="btn btn-light wd-btn-class"> <i class="fas fa-ellipsis-v" style="color: #000000;"></i> </button>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<ul class="list-group wd-mod-list-main">
+    <li class="list-group-item-secondary"> 
+        <div>
+            Week 0 - INTRO 
+        <div class="float-end wd-first-img">
+            <div class="wd-button-div-space">
+                <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+            </div>
+            <div class="wd-button-div-space">
+                <i class="fas fa-plus" style="color: #929292;"></i>
+            </div>
+            <div>
+                <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+            </div>
+        </div>
+    </div>
+    </li>
+    <li class="list-group-item wd-list-group">
+        <div >
+            LEARNING OBJECTIVES
+            <div class="float-end wd-first-img">
+                <div class="wd-button-div-space">
+                    <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                </div>
+            </div>
+        </div>
+    </li>
+        <li class="list-group-item wd-list-group">  
+            <div class="wd-mod-list">
+                Introduction to the course
+                <div class="float-end wd-first-img">
+                    <div class="wd-button-div-space">
+                        <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item wd-list-group">  
+            <div class="wd-mod-list">
+                Learn what is Web Development
+                <div class="float-end wd-first-img">
+                    <div class="wd-button-div-space">
+                        <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item wd-list-group">  
+            <div class="wd-mod-list">
+                Creating a development environment
+                <div class="float-end wd-first-img">
+                    <div class="wd-button-div-space">
+                        <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item wd-list-group">  
+            <div class="wd-mod-list">
+                Introduction to the course
+                <div class="float-end wd-first-img">
+                    <div class="wd-button-div-space">
+                        <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="list-group-item wd-list-group">  
+            <div class="wd-mod-list">
+                Getting started with the 1st assignment
+                <div class="float-end wd-first-img">
+                    <div class="wd-button-div-space">
+                        <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item wd-list-group">
+            <div >
                 READINGS
-                <ul>
-                    <li>Full Stack Developer - Chapter 1 - Introduction</li>
-                    <li>Full Stack Developer - Chapter 2 - Creating User Interfaces with HTML</li>
-                </ul>
-            </li>
-            <li>
+                <div class="float-end wd-first-img">
+                    <div class="wd-button-div-space">
+                        <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item wd-list-group">  
+            <div class="wd-mod-list">
+                Full Stack Developer - Chapter 1 - Introduction
+                <div class="float-end wd-first-img">
+                    <div class="wd-button-div-space">
+                        <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item wd-list-group">  
+            <div class="wd-mod-list">
+                Full Stack Developer - Chapter 2 - Creating User Interfaces with HTML
+                <div class="float-end wd-first-img">
+                    <div class="wd-button-div-space">
+                        <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item wd-list-group">
+            <div >
                 SLIDES
-                <ul>
-                    <li><a href="#"> Introduction to Web Development Links to an external site</a> </li>
-                    <li><a href="#"> Creating an HTTP server with Node.js Links to an external site</a> </li>
-                    <li><a href="#"> Creating a React Application Links to an external site</a> </li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-    <li>
-        Week 1 - HTML
-        <ul>
-            <li>
-                LEARNING OBJECTIVES
-                <ul>
-                    <li>Learn how to create user interfaces with HTML</li>
-                    <li>Keep working on assignment 1</li>
-                    <li>Deploy the assignment on Netlify</li>
-                </ul>
-            </li>
-            <li>
-                READINGS
-                <ul>
-                    <li>Full Stack Developer - Chapter 1 - Introduction</li>
-                    <li>Full Stack Developer - Chapter 2 - Creating User Interfaces with HTML</li>
-                </ul>
-            </li>
-        </ul> 
-    </li>
+                <div class="float-end wd-first-img">
+                    <div class="wd-button-div-space">
+                        <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item wd-list-group">  
+            <div class="wd-mod-list">
+                <a href="#"><i class="fas fa-link" style="color: #ff2600;"></i>
+                     Introduction to Web Development Links to an external site
+                     <i class="fas fa-external-link-alt" style="color: #ff2600;"></i>
+                    </a> 
+                <div class="float-end wd-first-img">
+                    <div class="wd-button-div-space">
+                        <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item wd-list-group">  
+            <div class="wd-mod-list">
+                <a href="#"><i class="fas fa-link" style="color: #ff2600;"></i> 
+                    Creating an HTTP server with Node.js Links to an external site
+                    <i class="fas fa-external-link-alt" style="color: #ff2600;"></i>
+                </a> 
+                <div class="float-end wd-first-img">
+                    <div class="wd-button-div-space">
+                        <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item wd-list-group">  
+            <div class="wd-mod-list">
+                <a href="#"><i class="fas fa-link" style="color: #ff2600;">
+                </i> Creating a React Application Links to an external site
+                <i class="fas fa-external-link-alt" style="color: #ff2600;"></i>
+                </a> 
+                <div class="float-end wd-first-img">
+                    <div class="wd-button-div-space">
+                        <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                    </div>
+                </div>
+            </div>
+        </li>
 </ul>
+<ul class="list-group wd-mod-list-main">
+    <li class="list-group-item-secondary wd-list-group"> 
+        <div>
+            Week 1 - HTML 
+        <div class="float-end wd-first-img">
+            <div class="wd-button-div-space">
+                <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+            </div>
+            <div class="wd-button-div-space">
+                <i class="fas fa-plus" style="color: #929292;"></i>
+            </div>
+            <div>
+                <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+            </div>
+        </div>
+    </div>
+    </li>
+    <li class="list-group-item">
+        <div >
+            LEARNING OBJECTIVES
+            <div class="float-end wd-first-img">
+                <div class="wd-button-div-space">
+                    <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="list-group-item">  
+        <div class="wd-mod-list">
+            Learn how to create user interfaces with HTML
+            <div class="float-end wd-first-img">
+                <div class="wd-button-div-space">
+                    <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="list-group-item">  
+        <div class="wd-mod-list">
+            Keep working on assignment 1
+            <div class="float-end wd-first-img">
+                <div class="wd-button-div-space">
+                    <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="list-group-item">  
+        <div class="wd-mod-list">
+            Deploy the assignment on Netlify
+            <div class="float-end wd-first-img">
+                <div class="wd-button-div-space">
+                    <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="list-group-item">
+        <div >
+            READINGS
+            <div class="float-end wd-first-img">
+                <div class="wd-button-div-space">
+                    <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="list-group-item">  
+        <div class="wd-mod-list">
+            Full Stack Developer - Chapter 1 - Introduction
+            <div class="float-end wd-first-img">
+                <div class="wd-button-div-space">
+                    <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="list-group-item">  
+        <div class="wd-mod-list">
+            Full Stack Developer - Chapter 2 - Creating User Interfaces with HTML
+            <div class="float-end wd-first-img">
+                <div class="wd-button-div-space">
+                    <i class="fas fa-check-circle" style="color: #aa7942;"></i>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-v" style="color: #aaaaaa;"></i>
+                </div>
+            </div>
+        </div>
+    </li>   
+</ul>
+</div>
 </body>
 </html>

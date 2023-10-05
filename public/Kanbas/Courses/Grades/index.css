@@ -1,0 +1,30 @@
+.wd-grades-main {
+    margin: 8px;
+}
+
+.wd-btn {
+    background-color: whitesmoke;
+}
+
+.wd-inputs {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.wd-top-in {
+    width: 95%;
+    display: flex;
+}
+
+.wd-filter-btn {
+    padding-bottom: 10px;
+}
+
+td.wd-tb-name {
+    color: red !important; 
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}

@@ -4,101 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../../../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../vendors/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../../Kanbas-nav/index.css">
+    <link rel="stylesheet" href="../Profile-nav/index.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <table width="100%">
-        <tr>
-            <td valign="top">
-                <ul>
-                    <li> <a href="/Kanbas/Account/Profile-nav/screen.html"> Account</a></li>
-                    <li> <a href="#"> Dashboard</a></li>
-                    <li> <a href="/Kanbas/Courses/Course-nav/screen.html"> Courses</a></li>
-                    <li> <a href="#"> Calendar</a></li>
-                    <li> <a href="#"> Inbox</a></li>
-                    <li> <a href="#"> History</a></li>
-                    <li> <a href="#"> Studio</a></li>
-                    <li> <a href="#"> Commons</a></li>
-                    <li> <a href="#"> Help</a></li>
+    <div class=".container">
+        <div class="row">
+            <div class="wd-nav-background-div col-sm-4">
+                <ul class="wd-kan-navigation list-group">
+                    <li class="list-group"> <img src="../../Kanbas-nav/northeastern.png" class="wd-imaging"></li>
+                    <li class = "list-group-item"> <i class="far fa-user-circle fa-lg" style="color: grey;"></i></li>
+                    <li class = "list-group-item"> <a href="/Kanbas/Account/Profile-nav/screen.html"> Account</a></li>
+                    <li class = "list-group-item"> <i class="fas fa-tachometer-alt fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="../../Dashboard/screen.html"> Dashboard</a></li>
+                    <li class = "list-group-item"> <i class="fas fa-book fa-lg" style="color: #ff2600;"></i></i> </li>
+                    <li class = "list-group-item"> <a href="/Kanbas/Courses/Course-nav/screen.html"> Courses</a> </li>
+                    <li class = "list-group-item"> <i class="far fa-calendar-alt fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Calendar</a> </li>
+                    <li class = "list-group-item"> <i class="far fa-envelope-open fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Inbox</a> </li>
+                    <li class = "list-group-item"> <i class="far fa-clock fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> History</a> </li>
+                    <li class = "list-group-item"> <i class="fas fa-desktop fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Studio</a> </li>
+                    <li class = "list-group-item"> <i class="fas fa-sign-out-alt fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Commons</a> </li>
+                    <li class = "list-group-item"> <i class="far fa-question-circle fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Help</a> </li>
                 </ul>
-            </td>
-            <td valign="top">
-                <ul>
-                    <li> <a href="#"> Notifications</a> </li>
-                    <li> <a href="/Kanbas/Account/Profile/screen.html"> Profile</a> </li>
-                    <li> <a href="#"> Files</a> </li>
-                    <li> <a href="#"> Settings</a> </li>
-                    <li> <a href="#"> ePortfolios</a> </li>
-                    <li> <a href="#"> Shared Content</a> </li>
-                    <li> <a href="#"> The Hub</a> </li>
-                    <li> <a href="#"> Qwickly Course Tools</a> </li>
-                    <li> <a href="#"> Global Announcements</a> </li>
+            </div>
+            <div class="col-sm-2 wd-profile-nav">
+                <ul class="wd-profile-nav-bar list-group">
+                    <div class="wd-top-left">
+                        <i class="fas fa-bars fa-lg" style="color: #ff2600;"></i>
+                        <h5> Kevin Vasquez's Profile </h5>
+                    </div>
+                    <li class="list-group-item"> <a href="#"> Notifications</a> </li>
+                    <li class="list-group-item active"> <a href="../Profile/screen.html"> Profile</a> </li>
+                    <li class="list-group-item"> <a href="#"> Files</a> </li>
+                    <li class="list-group-item"> <a href="#"> Settings</a> </li>
+                    <li class="list-group-item"> <a href="#"> ePortfolios</a> </li>
+                    <li class="list-group-item"> <a href="#"> Shared Content</a> </li>
+                    <li class="list-group-item"> <a href="#"> The Hub</a> </li>
+                    <li class="list-group-item"> <a href="#"> Qwickly Course Tools</a> </li>
+                    <li class="list-group-item"> <a href="#"> Global Announcements</a> </li>
                 </ul>
-            </td>
-            <td valign="top">
-                <h1> Kevin Vasquez </h1>
-                <label id="name-box"> Name: * </label>
-                <input id="name-box" value="Kevin Vasquez"> 
-                <label id="pronoun-box"> Pronouns: </label>
-                <select id="pronoun-box">
-                    <option> None </option>
-                </select>
-                <br/>
-                <br/>
-                <label id="title-box"> Title: </label>
-                <input id="title-box"> 
-                <br/>
-                <h2> Contact </h2>
-                No regisrted services, you can add some on the <a href=""> settings</a> page.
-                <br/>
-                <h2> Biography </h2>
-                <br/>
-                Computer Science student, Junior, Mitski fan
-                <br/>
-                <textarea id="bio-textarea" cols="37" rows="3">Computer Science student, Junior, Mitski fan </textarea>
-                <br/>
-                <h2> Links</h2>
-                <ul>
-                    <li> <a href=""> Youtube -> Links to an external site.</a> </li>
-                </ul>
-                <table width="20%">
-                    <tr>
-                        <td valign="top">
-                            <h2> Title</h2>
-                        </td>
-                        <td valign="top">
-                            <h2> URL</h2>
-                        </td>
-                    </tr>
-                </table>
-                <input id="title_name_box" value="YouTube"> 
-                 -->
-                <input id="url_name_box" value="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                <label id="url_name_box"> <a href="">Remove</a> </label>
-                <br/>
-                <button> Add another Link</button>
-                <br/>
-                <table>
-                    <tr>
-                        <td>
-                            <button>Cancel</button>
-                        </td>
-                        <td>
-                            <form action="/Kanbas/Account/Profile/screen.html"> <button>Save Profile</button></form>
-                        </td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td>
-                            <form action="/Kanbas/Account/Account-editor/screen.html"> <button>Edit Profile</button></form>
-                        </td>
-                        <td>
-                            <form action="/Kanbas/Account/Profile/screen.html"> <button>Cancel Edit</button></form>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+            </div>
+            <div class="col wd-edit-container">
+                <div class="float-end">
+                        <a type="button" class="btn btn-light wd-edit-button" href="/Kanbas/Account/Account-editor/screen.html">
+                            <i class="fas fa-pencil-alt fa-rotate-270" style="color: #919191;"></i> 
+                            Edit Profile
+                        </a>
+                </div>
+            <i class="far fa-user-circle fa-lg wd-profile-blank-image" style="color: #919191;"></i>
+            <label id="name-box"> Name:* </label>
+            <input class="form-control wd-form-edit" id="name-box" value="Kevin Vasquez"> 
+            <label id="pronoun-box"> Pronouns: </label>
+            <div class="dropdown" id="pronoun-box">
+                <button class="btn btn-secondary dropdown-toggle  wd-dropdown-edior">
+                    None
+                </button>
+            </div>
+            <label id="title-box"> Title: </label>
+            <input id="title-box" class="form-control"> 
+            <div class="wd-contact-bio">
+            <h2> Contact </h2>
+            No registered services, you can add some on the <a href=""> settings</a> page.
+            <br/>
+            <div class="wd-bio-area">
+            <label id="tex-bio-area" class="wd-bio-label"> Biography </label>
+            <textarea id="tex-bio-area" class="form-control wd-bio-box" id="bio-textarea" cols="37" rows="3">Computer Science student, Junior, Mitski fan </textarea>
+            </div>
+            </div>
+        
+            <h2 class="wd-link-heading"> Links</h2>
+            <div class="wd-links-sections">
+            <div class="wd-title-col">
+                <label class="wd-title-link-override" id="title-box"> Title </label>
+                <input type="text" class="form-control wd-link-override" placeholder="Youtube">
+            </div>
+            <div class="wd-link-section-arrow">
+                <i class="fas fa-arrow-right" style="color: #000000;"></i>
+            </div>
+            <div class="wd-url-col">
+                <label class="wd-title-link-override" id="url_name_box"> URL </label>
+                <input type="text" class="form-control wd-link-override" placeholder="https://www.youtube.com/watch?v=3GJOVPjhXMY&t=2s"> 
+            </div>
+            </div>
+            <div class="wd-add-another=link=btn">
+                <button type="button" class="btn btn-light wd-edit-button">
+                    Add Another Link 
+                </button>
+            </div>
+            <hr>
+            <div class="wd-can-sav-button">
+                <div class="wd-cancel-btn">
+                    <a type="button" class="btn btn-light wd-can-butt-overwrite" href="/Kanbas/Account/Profile/screen.html">
+                        Cancel 
+                    </a> 
+                </div>
+                <div class="wd-save-btn">
+                    <a href="/Kanbas/Account/Profile/screen.html" class="btn btn-light wd-save-button">
+                        Save Profile
+                    </a> 
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -4,106 +4,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../../../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../vendors/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../../Kanbas-nav/index.css">
+    <link rel="stylesheet" href="../../Courses/Course-nav/index.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <table width="100%">
-        <tr>
-            <td valign="top">
-                <ul>
-                    <li> <a href="/Kanbas/Account/Profile-nav/screen.html"> Account</a></li>
-                    <li> <a href="#"> Dashboard</a></li>
-                    <li> <a href="/Kanbas/Courses/Course-nav/screen.html"> Courses</a></li>
-                    <li> <a href="#"> Calendar</a></li>
-                    <li> <a href="#"> Inbox</a></li>
-                    <li> <a href="#"> History</a></li>
-                    <li> <a href="#"> Studio</a></li>
-                    <li> <a href="#"> Commons</a></li>
-                    <li> <a href="#"> Help</a></li>
+    <div class=".container">
+        <div class="row">
+            <div class="wd-nav-background-div col-sm-1">
+                <ul class="wd-kan-navigation list-group">
+                    <li class="list-group"> <img src="../../Kanbas-nav/northeastern.png" class="wd-imaging"></li>
+                    <li class = "list-group-item"> <i class="far fa-user-circle fa-lg" style="color: grey;"></i></li>
+                    <li class = "list-group-item"> <a href="/Kanbas/Account/Profile-nav/screen.html"> Account</a></li>
+                    <li class = "list-group-item"> <i class="fas fa-tachometer-alt fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="../../Dashboard/screen.html"> Dashboard</a></li>
+                    <li class = "list-group-item"> <i class="fas fa-book fa-lg" style="color: #ff2600;"></i></i> </li>
+                    <li class = "list-group-item"> <a href="/Kanbas/Courses/Course-nav/screen.html"> Courses</a> </li>
+                    <li class = "list-group-item"> <i class="far fa-calendar-alt fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Calendar</a> </li>
+                    <li class = "list-group-item"> <i class="far fa-envelope-open fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Inbox</a> </li>
+                    <li class = "list-group-item"> <i class="far fa-clock fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> History</a> </li>
+                    <li class = "list-group-item"> <i class="fas fa-desktop fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Studio</a> </li>
+                    <li class = "list-group-item"> <i class="fas fa-sign-out-alt fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Commons</a> </li>
+                    <li class = "list-group-item"> <i class="far fa-question-circle fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Help</a> </li>
                 </ul>
-            </td>
-            <td valign="100%">
-                <ul>
-                    <li><a href="/Kanbas/Courses/Home/screen.html"> Home</a></li>
-                    <li><a href="#"> Modules</a></li>
-                    <li><a href="#"> Piazza</a></li>
-                    <li><a href="#"> Zoom Meetings</a></li>
-                    <li><a href="/Kanbas/Courses/Assignments/screen.html"> Assignments</a></li>
-                    <li><a href="#"> Quizes</a></li>
-                    <li><a href="/Kanbas/Courses/Grades/grades.html"> Grades</a></li>
-                    <li><a href="#"> People </a></li>
-                    <li><a href="#"> Panopto Video</a></li>
-                    <li><a href="#"> Discussions</a></li>
-                    <li><a href="#"> Announcements</a></li>
-                    <li><a href="#"> Pages</a></li>
-                    <li><a href="#"> Files</a></li>
-                    <li><a href="#"> Rubrics</a></li>
-                    <li><a href="#"> Outcomes</a></li>
-                    <li><a href="#"> Collaborations</a></li>
-                    <li><a href="#"> Syllabus</a></li>
-                    <li><a href="#"> Setting</a></li>
+            </div>
+            <div class="col-10">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" >
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">CS4550</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Grades</li>
+                    </ol>
+                  </nav>
+        <div class="row">
+            <div class="col-sm-1 wd-course-nav-main">
+                <ul class="wd-course-list-navigation list-group">
+                    <li class="list-group-item"><a href="/Kanbas/Courses/Home/screen.html"> Home</a></li>
+                    <li class="list-group-item"><a href="#"> Modules</a></li>
+                    <li class="list-group-item"><a href="#"> Piazza</a></li>
+                    <li class="list-group-item"><a href="#"> Zoom Meetings</a></li>
+                    <li class="list-group-item"><a href="/Kanbas/Courses/Assignments/screen.html"> Assignments</a></li>
+                    <li class="list-group-item"><a href="#"> Quizes</a></li>
+                    <li class="list-group-item active"><a href="/Kanbas/Courses/Grades/grades.html"> Grades</a></li>
+                    <li class="list-group-item"><a href="#"> People </a></li>
+                    <li class="list-group-item"><a href="#"> Panopto Video</a></li>
+                    <li class="list-group-item"><a href="#"> Discussions</a></li>
+                    <li class="list-group-item"><a href="#"> Announcements</a></li>
+                    <li class="list-group-item"><a href="#"> Pages</a></li>
+                    <li class="list-group-item"><a href="#"> Files</a></li>
+                    <li class="list-group-item"><a href="#"> Rubrics</a></li>
+                    <li class="list-group-item"><a href="#"> Outcomes</a></li>
+                    <li class="list-group-item"><a href="#"> Collaborations</a></li>
+                    <li class="list-group-item"><a href="#"> Syllabus</a></li>
+                    <li class="list-group-item"><a href="#"> Setting</a></li>
                 </ul>
-            </td>
-            <td valign="100%">
-                <select>
-                    <option value="gradebook"> Gradebook </option>
-                </select>
-                <button> Import </button>
-                <select>
-                    <option value="export"> Export </option>
-                </select>
-                <button> Configure </button>
-                <h3> Student Names</h3> 
-                <input placeholder="Search Students">
-                <h3> Assignment Names </h3>
-                <input placeholder="Search Assignments"> 
-                <br/> 
-                <br/>
-                <button> Apply Filters </button>
-                <br/>
-                <br/>
-                <table width="100%" border="1">
-                    <thead>
-                        <tr>
-                            <th>Student Name </th>
-                            <th> A1 Setup </th>
-                            <th> A2 HTML</th>
-                            <th> A3 CSS</th>
-                            <th> A4 BOOTSTRAP</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td> Tyler Okonma </td>
-                            <td align="center"> <input id="tyler_a1" type="number" max="100" min="0" step="1" value="100"> </td>
-                            <td align="center"> <input id="tyler_a2" type="number" max="100" min="0" step="1" value="80">  </td>
-                            <td align="center"> 80 </td>
-                            <td align="center"> 95 </td>
-                        </tr>
-                        <tr>
-                            <td> Frank Ocean </td>
-                            <td align="center"> 15 </td>
-                            <td align="center"> <input id="f0_a2" type="number" max="100" min="0" step="1" value="50">  </td>
-                            <td align="center"> <input id="fo_a3" type="number" max="100" min="0" step="1" value="75"> </td>
-                            <td align="center"> 35 </td>
-                        </tr>
-                        <tr>
-                            <td> Baby Keem </td>
-                            <td align="center"> 15 </td>
-                            <td align="center"> 100  </td>
-                            <td align="center"> 80 </td>
-                            <td align="center"> <input id="bk_a3" type="number" max="100" min="0" step="1" value="55"> </td>
-                        </tr>
-                        <tr>
-                            <td> Kendrick Lamar </td>
-                            <td align="center"> <input id="kl_a1" type="number" max="100" min="0" step="1" value="0"> </td>
-                            <td align="center"> <input id="kl_a2" type="number" max="100" min="0" step="1" value="100">  </td>
-                            <td align="center"> 98 </td>
-                            <td align="center"> 99 </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-    </table>
+            </div>
+            <div class="col wd-grades-main">
+                <div class="d-flex justify-content-end">
+                    <button class="btn btn-light wd-btn">
+                        <i class="fas fa-file-import fa-sm" style="color: #c0c0c0;"></i>
+                        Import </button>
+                        <div class="btn-group btn-light">
+                            <button type="button" class="btn dropdown-toggle">
+                                <i class="fas fa-file-export fa-sm" style="color: #c0c0c0;"></i>
+                                Export
+                            </button> 
+                        </div>
+                    <button class="btn btn-light wd-btn"> <i class="fas fa-cog fa-lg" style="color: #000000;"></i></button>
+                </div>
+                <div class="d-flex wd-inputs ">
+                    <div class="wd-top-in">
+                    <span class="input-group-text"> <i class="fas fa-search fa-sm" style="color: #c0c0c0;"></i>  </span>
+                    <input class="form-control wd-top-in" placeholder="Search Students">
+                    </div>
+                    <div class="wd-top-in"i>
+                    <span class="input-group-text"> <i class="fas fa-search fa-sm" style="color: #c0c0c0;"></i>  </span>
+                    <input class="form-control wd-top-in" placeholder="Search Assignments">
+                    </div>
+                </div>
+            <div class="wd-filter-btn">
+                <button class="btn btn-light wd-btn"> Apply Filters </button>
+            </div>
+            <div class="table-responsive">
+            <table width="100%" border="1" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Student Name </th>
+                        <th> A1 Setup </th>
+                        <th> A2 HTML</th>
+                        <th> A3 CSS</th>
+                        <th> A4 BOOTSTRAP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="wd-tb-name"> Tyler Okonma </td>
+                        <td align="center"> <input id="tyler_a1" type="number" max="100" min="0" step="1" value="100"> </td>
+                        <td align="center"> <input id="tyler_a2" type="number" max="100" min="0" step="1" value="80">  </td>
+                        <td align="center"> 80 </td>
+                        <td align="center"> 95 </td>
+                    </tr>
+                    <tr>
+                        <td class="wd-tb-name"> Frank Ocean </td>
+                        <td align="center"> 15 </td>
+                        <td align="center"> <input id="f0_a2" type="number" max="100" min="0" step="1" value="50">  </td>
+                        <td align="center"> <input id="fo_a3" type="number" max="100" min="0" step="1" value="75"> </td>
+                        <td align="center"> 35 </td>
+                    </tr>
+                    <tr>
+                        <td class="wd-tb-name"> Baby Keem </td>
+                        <td align="center"> 15 </td>
+                        <td align="center"> 100  </td>
+                        <td align="center"> 80 </td>
+                        <td align="center"> <input id="bk_a3" type="number" max="100" min="0" step="1" value="55"> </td>
+                    </tr>
+                    <tr>
+                        <td class="wd-tb-name"> Kendrick Lamar </td>
+                        <td align="center"> <input id="kl_a1" type="number" max="100" min="0" step="1" value="0"> </td>
+                        <td align="center"> <input id="kl_a2" type="number" max="100" min="0" step="1" value="100">  </td>
+                        <td align="center"> 98 </td>
+                        <td align="center"> 99 </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            </div>
+         </div>        
+        </div>
+    </div>
 </body>
 </html>

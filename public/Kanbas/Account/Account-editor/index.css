@@ -1,0 +1,113 @@
+.wd-edit-container {
+    margin: 8px;
+    align-items: center;
+}
+
+.wd-edit-container .wd-profile-blank-image {
+    padding-top: 50px;
+    font-size: 200px;
+    padding-bottom: 50px;
+}
+
+.wd-edit-container .wd-button {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.wd-edit-container .wd-edit-button {
+    color: black;
+}
+
+label {
+    display: block;   
+}
+
+.wd-edit-container .form-control {
+    width: 350px;
+}
+
+.wd-edit-container .wd-contact-bio {
+    padding-top: 50px;
+}
+
+.wd-edit-container .wd-dropdown-edior {
+    background-color: white;
+    border-color: black;
+    color: black;
+    width: 200px;
+    text-align: left;
+}
+
+.wd-edit-container  .wd-bio-box {
+    height: 155px;
+}
+
+
+.wd-edit-container .wd-bio-label {
+    font-size:xx-large;
+    padding-top: 50px;
+}
+
+.wd-edit-container a {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-edit-container .wd-links-sections {
+    display: flex;
+    padding-top: 15px;
+}
+
+.wd-edit-container .wd-title-link-override {
+    padding-left: 70px;
+}
+
+.wd-edit-container .wd-link-heading {
+    padding-top: 35px;
+}
+
+.wd-edit-container .wd-link-override {
+    display: block;
+    width: 150px;
+    margin-right: 50px;
+}
+
+.wd-edit-container .wd-url-col {
+    display: block;
+}
+
+.wd-edit-container .wd-link-section-arrow {
+    display: block;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+.wd-edit-container .wd-can-sav-button {
+    display: flex;
+    padding-left: 150px   
+}
+
+.wd-edit-container .wd-can-sav-button .wd-can-butt-overwrite {
+    color: black; 
+}
+
+.wd-edit-container .wd-save-button {
+    background: red;
+    color: white;
+}
+
+.wd-top-left {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.wd-top-left  h5{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.wd-top-left  i{
+    padding-left: 10px;
+    padding-top: 19px;
+}

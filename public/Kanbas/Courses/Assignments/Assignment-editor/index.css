@@ -1,0 +1,170 @@
+.wd-assignment-editor {
+    margin: 8px;
+    padding-top: 15px;
+}
+
+.wd-elip-buttn {
+    padding-bottom: 25px;
+}
+
+.wd-assignment-form {
+    width: 50%;
+}
+.wd-points-div {
+    display: flex;
+    align-items: center;
+}
+
+.wd-labels {
+    padding-right:15px;
+}
+
+.wd-assignment-name-div {
+    padding-bottom: 25px;
+}
+
+.wd-assignment-desc-div {
+    padding-bottom: 20px;
+}
+
+.wd-assignment-desc {
+    width: 50%;
+    height: 150px;
+}
+
+.wd-assignment-select-box {
+    width: 30%;
+}
+
+.wd-points-row {
+    padding-bottom: 30px;
+}
+
+.wd-dispay-grad {
+    padding-bottom: 30px;
+}
+
+.wd-display-grade-col {
+    align-items: center;
+    display: flex;
+}
+
+.wd-display-grade-label {
+    padding-right: 30px;
+}
+
+.wd-percentage-grad {
+    width: 30%;
+}
+.wd-points-box {
+    width: 25%;
+}
+
+.wd-assignment-group-div {
+    padding-bottom: 30px;
+}
+
+.wd-assignment-group-col {
+    align-items: center;
+    display: flex;
+}
+
+.wd-assignment-group-l {
+    padding-right: 15px;
+}
+
+.wd-percentage-div {
+    width: 30%;
+}
+
+.wd-sub-dropdown {
+    width: 30%;
+}
+
+.wd-sub-type-div {
+    padding-bottom: 30px;
+}
+
+.wd-sub-tye-col {
+    display: flex;
+    align-items: center;
+}
+
+.wd-sub-type-text {
+    padding-right: 30px;
+}
+
+.wd-online-ent-row {
+    padding-bottom: 30px;
+}
+
+.wd-online-ent-col {
+    display:flex;
+    flex-direction: column;
+}
+
+.wd-sub-attmpt-row {
+    padding-bottom: 30px;
+}
+
+.wd-wd-sub-attmpt-col {
+    display:flex;
+    align-items: center;
+}
+
+.wd-sub-attmp-lab {
+    padding-right: 30px;
+}
+
+.wd-sub-attmp-form {
+    width: 30%;
+}
+
+.wd-pr-row {
+    padding-bottom: 30px;
+}
+
+.wd-pr-form {
+    width: 10%;
+}
+
+.wd-ga-row {
+    padding-bottom: 30px;
+}
+
+.wd-peer-r {
+    padding-bottom: 30px;
+}
+
+.wd-assign-to-r {
+    padding-bottom: 30px;
+}
+
+.wd-assign-to-form {
+    width: 15%;
+}
+
+.wd-due-r {
+    padding-bottom: 30px;
+}
+
+.wd-due-fc {
+    width: 25%;
+}
+
+.wd-af {
+    gap: 30px;
+}
+
+.wd-af-form {
+    width: 15%
+}
+
+.wd-af-titles {
+    gap: 15%;
+}
+
+.wd-save-btn {
+    background-color: red;
+    color: white;
+}

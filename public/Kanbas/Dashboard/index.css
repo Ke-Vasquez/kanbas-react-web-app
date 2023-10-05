@@ -1,0 +1,36 @@
+.wd-dashboard-main-div {
+    margin: 8px;
+}
+
+.wd-dashboard-main-div h2 {
+    color: grey;
+    opacity: 0.7;
+}
+
+.wd-dashboard-main-div .wd-card-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 8px;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.wd-dashboard-main-div .wd-card-container .wd-card-class {
+    width: 270px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.wd-dashboard-main-div  .wd-card-container .wd-card-class a {
+    text-decoration: none;
+}
+
+.wd-dashboard-main-div  .wd-card-container .wd-card-class h6 {
+    color: red;
+
+}
+
+.wd-dashboard-main-div  .wd-card-container .wd-card-class .wd-para-sizing {
+    font-size: 15px;
+    color: black;
+}
