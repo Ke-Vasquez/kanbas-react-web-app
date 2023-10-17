@@ -4,111 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../../../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../vendors/fontawesome/css/all.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <input id="search_assignment" placeholder="Search for Assignments">
-    <button> Group </button>
-    <button> Assignment </button>
-    <select>
-        <option id="ead"> Edit Assignment Dates </option>
-    </select>
-    <h3> ASSIGNMENTS 40% of Total     
-        <select>
-        <option id="edit"> Edit </option>
-        <option id="speedGrader"> Speed Grader </option>
-        <option id="duplicate"> Duplicate </option>
-        <option id="delete"> Delete </option>
-        <option id="moveTo"> Move To </option>
-        <option id="sendTo"> Send To </option>
-        <option id="copyTo"> Copy To </option>
-        <option id="shareToCommons"> Share to Commons </option>
-    </select>
-</h3>
-    <ul>
-        <li> <a href="/Kanbas/Courses/Assignments/Assignment-editor/edit.html"> A1 - ENV + HTML </a> </li>
-        <a href=> Multiple Modules</a>
-        | Not available yet 
-        <li> <a href="/Kanbas/Courses/Assignments/Assignment-editor/edit.html"> A2 - CSS + BOOTSTRAP </a> </li>
-        <a href=""> Multiple Modules</a>
-        | Not available yet 
-        <li> <a href="/Kanbas/Courses/Assignments/Assignment-editor/edit.html"> A3 - JS + REACT </a> </li>
-        <a href=""> Multiple Modules</a>
-        | Not available yet 
-        <li> <a href="/Kanbas/Courses/Assignments/Assignment-editor/edit.html"> A4 - STATE - REDUX</a> </li>
-        <a href=""> Multiple Modules </a>
-        | Not available yet
-        <li> <a href="/Kanbas/Courses/Assignments/Assignment-editor/edit.html"> A5 - NODE + SESSION </a> </li>
-        <a href=""> Multiple Modules </a>
-        | Not available yet
-        <li> <a href="/Kanbas/Courses/Assignments/Assignment-editor/edit.html"> A6 - MONGO + MONGOOSE </a> </li>
-        <a href=""> Multiple Modules </a>
-        | Not available yet 
+    <div class="wd-assignment-page-main">
+        <div class="wd-upper-page-btns">
+            <input class="form-control wd-assignment-bar" type="text" placeholder="Search for Assignment">
+            <div class="wd-upper-btn">
+                <a class="btn btn-light"> +Group </a>
+                <a class="btn btn-danger wd-assignmnt-btn"> +Assignment </a>
+                <a class="btn btn-light"> <i class="fas fa-ellipsis-v fa-lg" style="color: #919191;"></i></a> 
+            </div>
+        </div>
+    <ul class="list-group wd-list">
+        <li class="list-group-item wd-list-first-item">
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i> 
+            <i class="fas fa-caret-down" style="color: #000000;"></i>
+
+            ASSIGNMENTS </li> 
+        <li class="list-group-item wd-list-group"> <a href="/Kanbas/Courses/Assignments/Assignment-editor/edit.html">
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i>
+            A1 - ENV + HTML <p> Text stuff about A1</p></a> </li>
+        <li class="list-group-item wd-list-group"> <a href="/Kanbas/Courses/Assignments/Assignment-editor/edit.html"> 
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i>
+            A2 - CSS + BOOTSTRAP </a> </li>
+        <li class="list-group-item wd-list-group"> <a href="/Kanbas/Courses/Assignments/Assignment-editor/edit.html"> 
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i>
+            A3 - JS + REACT </a> </li>
+        <li class="list-group-item wd-list-group"> <a href="/Kanbas/Courses/Assignments/Assignment-editor/edit.html"> 
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i>
+            A4 - STATE - REDUX</a> </li>
+        <li class="list-group-item wd-list-group"> <a href="/Kanbas/Courses/Assignments/Assignment-editor/edit.html"> 
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i>
+            A5 - NODE + SESSION </a> </li>
+        <li class="list-group-item wd-list-group"> <a href="/Kanbas/Courses/Assignments/Assignment-editor/edit.html"> 
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i>
+            A6 - MONGO + MONGOOSE </a> </li>
     </ul>
-    <h3> QUIZZES 10% of Total 
-        <select>
-            <option id="edit"> Edit </option>
-            <option id="speedGrader"> Speed Grader </option>
-            <option id="duplicate"> Duplicate </option>
-            <option id="delete"> Delete </option>
-            <option id="moveTo"> Move To </option>
-            <option id="sendTo"> Send To </option>
-            <option id="copyTo"> Copy To </option>
-            <option id="shareToCommons"> Share to Commons </option>
-        </select>
-    </h3>
-    <ul>
-        <li> <a href="#"> Q1 - HTML </a> </li>
-        <a href=""> Multiple Modules </a>
-        | Not available yet 
-        <li> <a href="a href="#""> Q2 - CSS </a> </li>
-        <a href=""> Multiple Modules </a>
-        | Not available yet  
-        <li> <a href="#"> Q3 - JS ES6 </a> </li>
-        <a href=""> Multiple Modules </a>
-        | Not available yet  
-        <li> <a href="#"> Q4 - NODE </a> </li>
-        <a href=""> Multiple Modules </a>
-        | Not available yet   
-        <li> <a href="#"> Q5 - MONGO </a> </li>
-        <a href=""> Multiple Modules </a>
-        | Not available yet  
+    <ul class="list-group wd-list">
+        <li class="list-group-item wd-list-first-item"> 
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i> 
+            <i class="fas fa-caret-down" style="color: #000000;"></i>
+            QUIZZES </li>
+        <li class="list-group-item wd-list-group"> 
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i>
+            <a href="#"> Q1 - HTML </a> </li>
+        <li class="list-group-item wd-list-group">
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i>
+             <a href="a href="#""> Q2 - CSS </a> </li>
+        <li class="list-group-item wd-list-group">
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i>
+             <a href="#"> Q3 - JS ES6 </a> </li>
+        <li class="list-group-item wd-list-group">
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i>
+             <a href="#"> Q4 - NODE </a> </li>
+        <li class="list-group-item wd-list-group">
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i>
+             <a href="#"> Q5 - MONGO </a> </li> 
     </ul> 
-    <h3> EXAMS 20% of Total 
-        <select>
-            <option id="edit"> Edit </option>
-            <option id="speedGrader"> Speed Grader </option>
-            <option id="duplicate"> Duplicate </option>
-            <option id="delete"> Delete </option>
-            <option id="moveTo"> Move To </option>
-            <option id="sendTo"> Send To </option>
-            <option id="copyTo"> Copy To </option>
-            <option id="shareToCommons"> Share to Commons </option>
-        </select>
-    </h3>
-    <ul>
-        <li> <a href="#"> Midterm </a> </li>
-        <a href=""> Multiple Modules </a>
-        | Not available yet
-        <li> <a href="#"> Final </a> </li>
-        <a href=""> Multiple Modules </a>
-        | Not available yet  
+    <ul class="list-group wd-list">
+        <li class="list-group-item wd-list-first-item"> 
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i> 
+            <i class="fas fa-caret-down" style="color: #000000;"></i>
+            EXAMES </li>
+        <li class="list-group-item wd-list-group">
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i>
+             <a href="#"> Midterm </a> </li>
+        <li class="list-group-item wd-list-group">
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i>
+             <a href="#"> Final </a> </li>  
+    </ul>        
+    <ul class="list-group wd-list">
+        <li class="list-group-item wd-list-first-item"> 
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i> 
+            <i class="fas fa-caret-down" style="color: #000000;"></i>
+            PROJECT </li>
+        <li class="list-group-item wd-list-group">
+            <i class="fas fa-ellipsis-v" style="color:gray;"></i> <i class="fas fa-ellipsis-v" style="color: gray;"></i>  
+            <i class="fas fa-pen-square fa-lg" style="color: #ff2600;"></i> 
+            <a href="#"> Project </a> </li>
     </ul>
-    <h3> PROJECT 30% of Total 
-        <select>
-            <option id="edit"> Edit </option>
-            <option id="speedGrader"> Speed Grader </option>
-            <option id="duplicate"> Duplicate </option>
-            <option id="delete"> Delete </option>
-            <option id="moveTo"> Move To </option>
-            <option id="sendTo"> Send To </option>
-            <option id="copyTo"> Copy To </option>
-            <option id="shareToCommons"> Share to Commons </option>
-        </select>
-    </h3>
-    <ul>
-        <li> <a href="#"> Project </a> </li>
-        <a href=""> Multiple Modules </a>
-        | Not available yet   
-    </ul> 
+    </div> 
 </body>
 </html>

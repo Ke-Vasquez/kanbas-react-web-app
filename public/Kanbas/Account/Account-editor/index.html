@@ -4,69 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../../../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../vendors/fontawesome/css/all.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1> Kevin Vasquez </h1>
-    <label id="name-box"> Name: * </label>
-    <input id="name-box" value="Kevin Vasquez"> 
+    <div class="wd-edit-container">
+        <div class="float-end">
+                <a type="button" class="btn btn-light wd-edit-button" href="/Kanbas/Account/Account-editor/screen.html">
+                    <i class="fas fa-pencil-alt fa-rotate-270" style="color: #919191;"></i> 
+                    Edit Profile
+                </a>
+        </div>
+    
+    <i class="far fa-user-circle fa-lg wd-profile-blank-image" style="color: #919191;"></i>
+    <label id="name-box"> Name:* </label>
+    <input class="form-control wd-form-edit" id="name-box" value="Kevin Vasquez"> 
     <label id="pronoun-box"> Pronouns: </label>
-    <select id="pronoun-box">
-        <option> None </option>
-    </select>
-    <br/>
-    <br/>
+    <div class="dropdown" id="pronoun-box">
+        <button class="btn btn-secondary dropdown-toggle  wd-dropdown-edior">
+            None
+        </button>
+    </div>
     <label id="title-box"> Title: </label>
-    <input id="title-box"> 
-    <br/>
+    <input id="title-box" class="form-control"> 
+    <div class="wd-contact-bio">
     <h2> Contact </h2>
-    No regisrted services, you can add some on the <a href=""> settings</a> page.
+    No registered services, you can add some on the <a href=""> settings</a> page.
     <br/>
-    <h2> Biography </h2>
-    <br/>
-    Computer Science student, Junior, Mitski fan
-    <br/>
-    <textarea id="bio-textarea" cols="37" rows="3">Computer Science student, Junior, Mitski fan </textarea>
-    <br/>
-    <h2> Links</h2>
-    <ul>
-        <li> <a href=""> Youtube -> Links to an external site.</a> </li>
-    </ul>
-    <table width="20%">
-        <tr>
-            <td valign="top">
-                <h2> Title</h2>
-            </td>
-            <td valign="top">
-                <h2> URL</h2>
-            </td>
-        </tr>
-    </table>
-    <input id="title_name_box" value="YouTube"> 
-     -->
-    <input id="url_name_box" value="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-    <label id="url_name_box"> <a href="">Remove</a> </label>
-    <br/>
-    <button> Add another Link</button>
-    <br/>
-    <table>
-        <tr>
-            <td>
-                <button>Cancel</button>
-            </td>
-            <td>
-                <form action="/Kanbas/Account/Profile/screen.html"> <button>Save Profile</button></form>
-            </td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <td>
-                <form action="/Kanbas/Account/Account-editor/screen.html"> <button>Edit Profile</button></form>
-            </td>
-            <td>
-                <form action="/Kanbas/Account/Profile/screen.html"> <button>Cancel Edit</button></form>
-            </td>
-        </tr>
-    </table>
+    <div class="wd-bio-area">
+    <label id="tex-bio-area" class="wd-bio-label"> Biography </label>
+    <textarea id="tex-bio-area" class="form-control wd-bio-box" id="bio-textarea" cols="37" rows="3">Computer Science student, Junior, Mitski fan </textarea>
+    </div>
+    </div>
+
+    <h2 class="wd-link-heading"> Links</h2>
+    <div class="wd-links-sections">
+    <div class="wd-title-col">
+        <label class="wd-title-link-override" id="title-box"> Title </label>
+        <input type="text" class="form-control wd-link-override" placeholder="Youtube">
+    </div>
+    <div class="wd-link-section-arrow">
+        <i class="fas fa-arrow-right" style="color: #000000;"></i>
+    </div>
+    <div class="wd-url-col">
+        <label class="wd-title-link-override" id="url_name_box"> URL </label>
+        <input type="text" class="form-control wd-link-override" placeholder="https://www.youtube.com/watch?v=3GJOVPjhXMY&t=2s"> 
+    </div>
+    </div>
+    <div class="wd-add-another=link=btn">
+        <button type="button" class="btn btn-light wd-edit-button">
+            Add Another Link 
+        </button>
+    </div>
+    <hr>
+    <div class="wd-can-sav-button">
+        <div class="wd-cancel-btn">
+            <a type="button" class="btn btn-light wd-can-butt-overwrite" href="/Kanbas/Account/Account-editor/screen.html">
+                Cancel 
+            </a> 
+        </div>
+        <div class="wd-save-btn">
+            <a href="/Kanbas/Account/Account-editor/screen.html" class="btn btn-light wd-save-button">
+                Save Profile
+            </a> 
+        </div>
+    </div>
 </body>
 </html>

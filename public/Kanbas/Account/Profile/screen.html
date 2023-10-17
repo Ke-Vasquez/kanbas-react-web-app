@@ -4,42 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../../../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../vendors/fontawesome/css/all.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="../Profile-nav/index.css">
+    <link rel="stylesheet" href="../../Kanbas-nav/index.css">
+    <link rel="stylesheet" href="../Profile-nav/screen_index.css">
+    <link rel="stylesheet" href="screen.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <table width="100%">
-        <tr>
-            <td valign="top">
-                <ul>
-                    <li> <a href="/Kanbas/Account/Profile-nav/screen.html"> Account</a></li>
-                    <li> <a href="#"> Dashboard</a></li>
-                    <li> <a href="/Kanbas/Courses/Course-nav/screen.html"> Courses</a></li>
-                    <li> <a href="#"> Calendar</a></li>
-                    <li> <a href="#"> Inbox</a></li>
-                    <li> <a href="#"> History</a></li>
-                    <li> <a href="#"> Studio</a></li>
-                    <li> <a href="#"> Commons</a></li>
-                    <li> <a href="#"> Help</a></li>
+    <div class="container">
+        <div class="row">
+            <div class="wd-nav-background-div col-sm-4">
+                <ul class="wd-kan-navigation list-group">
+                    <li class="list-group"> <img src="../../Kanbas-nav/northeastern.png" class="wd-imaging"></li>
+                    <li class = "list-group-item"> <i class="far fa-user-circle fa-lg" style="color: grey;"></i></li>
+                    <li class = "list-group-item"> <a href="/Kanbas/Account/Profile-nav/screen.html"> Account</a></li>
+                    <li class = "list-group-item"> <i class="fas fa-tachometer-alt fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="../../Dashboard/screen.html"> Dashboard</a></li>
+                    <li class = "list-group-item"> <i class="fas fa-book fa-lg" style="color: #ff2600;"></i></i> </li>
+                    <li class = "list-group-item"> <a href="/Kanbas/Courses/Course-nav/screen.html"> Courses</a> </li>
+                    <li class = "list-group-item"> <i class="far fa-calendar-alt fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Calendar</a> </li>
+                    <li class = "list-group-item"> <i class="far fa-envelope-open fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Inbox</a> </li>
+                    <li class = "list-group-item"> <i class="far fa-clock fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> History</a> </li>
+                    <li class = "list-group-item"> <i class="fas fa-desktop fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Studio</a> </li>
+                    <li class = "list-group-item"> <i class="fas fa-sign-out-alt fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Commons</a> </li>
+                    <li class = "list-group-item"> <i class="far fa-question-circle fa-lg" style="color: #ff2600;"></i> </li>
+                    <li class = "list-group-item"> <a href="#"> Help</a> </li>
                 </ul>
-            </td>
-            <td valign="top">
-                <ul>
-                    <li> <a href="#"> Notifications</a> </li>
-                    <li> <a href="/Kanbas/Account/Profile/screen.html"> Profile</a> </li>
-                    <li> <a href="#"> Files</a> </li>
-                    <li> <a href="#"> Settings</a> </li>
-                    <li> <a href="#"> ePortfolios</a> </li>
-                    <li> <a href="#"> Shared Content</a> </li>
-                    <li> <a href="#"> The Hub</a> </li>
-                    <li> <a href="#"> Qwickly Course Tools</a> </li>
-                    <li> <a href="#"> Global Announcements</a> </li>
+            </div>
+            <div class="col-sm-3 wd-profile-nav wd-profile-nav-screen">
+                <ul class="wd-profile-nav-bar list-group">
+                    <li class="list-group-item"> <a href="#"> Notifications</a> </li>
+                    <li class="list-group-item active"> <a href="../Profile/screen.html"> Profile</a> </li>
+                    <li class="list-group-item"> <a href="#"> Files</a> </li>
+                    <li class="list-group-item"> <a href="#"> Settings</a> </li>
+                    <li class="list-group-item"> <a href="#"> ePortfolios</a> </li>
+                    <li class="list-group-item"> <a href="#"> Shared Content</a> </li>
+                    <li class="list-group-item"> <a href="#"> The Hub</a> </li>
+                    <li class="list-group-item"> <a href="#"> Qwickly Course Tools</a> </li>
+                    <li class="list-group-item"> <a href="#"> Global Announcements</a> </li>
                 </ul>
-            </td>
-            <td valign="top">
-                Kevin Vasquez's Profile
+            </div>
+            <div class="col wd-container">
+                <div class="wd-top-left page-over-write">
+                    <i class="fas fa-bars fa-lg" style="color: #ff2600;"></i>
+                    <h5> Kevin Vasquez's Profile </h5>
+                </div>
                 <hr/>
-                <form action="/Kanbas/Account/Account-editor/screen.html"> 
-                    <button style="float: right;"> Edit Profile </button>
-                </form>
+                <div class="float-end">
+                    <form action="/Kanbas/Account/Account-editor/screen.html"> 
+                        <a class="btn btn-light wd-button" href="../Account-editor/screen.html">
+                            <i class="fas fa-pencil-alt fa-rotate-270" style="color: #919191;"></i> 
+                            Edit Profile
+                        </a>
+                    </form>
+                </div>
+                <i class="far fa-user-circle fa-lg custom-icon" style="color: #919191;"></i>
                 <h1> Kevin Vasquez </h1>   
                 <h2> Contact </h2>
                 No registered services, you cana add some on the <a href="#"> settings </a> page
@@ -50,9 +77,11 @@
                 <br/>
                 <br/>
                 <h2> Links </h2>
-                <a href="https://www.youtube.com/watch?v=jNQXAC9IVRw"> YouTube </a>       
-            </td>
-        </tr>
-    </table>
+                <i class="fas fa-link fa-sm" style="color: #ff2600;"></i>
+                <a href="https://www.youtube.com/watch?v=jNQXAC9IVRw"> YouTube </a>
+                <i class="fas fa-share fa-sm" style="color: #ff2600;"></i>
+            </div>
+        </div>       
+    </div>
 </body>
 </html>

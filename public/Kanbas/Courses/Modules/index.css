@@ -1,0 +1,52 @@
+.wd-modules {
+    margin: 8px;
+}
+
+.wd-right-most-buttons {
+    display: flex;
+}
+
+.wd-pub-form {
+    background-color: lightgrey;
+}
+
+.wd-btn-class {
+    background-color: lightgrey;
+}
+.wd-mod-list-main {
+    padding-bottom: 50px;
+}
+
+.wd-pub {
+    color: white;
+}
+
+
+.wd-first-img {
+    display: flex;
+}
+
+.wd-button-div-space {
+    padding-right: 40px;
+}
+
+.wd-mod-list {
+    padding-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+ul {
+    list-style: none;
+    border-left-color: green;
+}
+
+.list-group-item {
+    height: 10%;
+    border-left-color: green;
+    border-left-width: 5px;
+    border-radius: 0px
+}
