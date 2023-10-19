@@ -1,6 +1,6 @@
 .wd-course-main{
     color: red;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-top: 15px;
     display: flex;
     align-items: center;
@@ -19,4 +19,12 @@
 .wd-course-main hr {
     margin: 30px -20px 20px;
     border: 0;
+}
+
+.wd-pre-nav-desc {
+    padding-left: 10px;
+}
+
+.wd-pre-nav-desc p {
+    font-size: 10px;
 }

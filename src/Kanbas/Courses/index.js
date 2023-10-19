@@ -3,6 +3,7 @@ import {useParams, Routes, Route, Navigate, useLocation,pathname } from "react-r
 import { FaBars } from "react-icons/fa";
 import "./index.css"
 import CourseNavigation from "../CourseNavigation";
+import Modules from "../Modules";
 
 function Courses() {
   const { courseId } = useParams();
@@ -20,6 +21,9 @@ function Courses() {
             <h3> {preCrumb} {screen} </h3>
         </div>
         <hr className="wd-hrs"/>
+        <div className="wd-pre-nav-desc">
+            <p> {courseId} {course.number} {course.endDate}</p>
+          </div>
        <div>
           <CourseNavigation/>
           <div>
@@ -28,12 +32,12 @@ function Courses() {
           style={{
             left: "320px",
             top: "50px",
-          }}
-        >
+          }}>
+
           <Routes>
             <Route path="/" element={<Navigate to="Home" />} />
             <Route path="Home" element={<h1>Home</h1>} />
-            <Route path="Modules" element={<h1>Modules</h1>} />
+            <Route path="Modules" element={<Modules/>} />
             <Route path="Assignments" element={<h1>Assignments</h1>} />
             <Route
               path="Assignments/:assignmentId"

@@ -12,8 +12,8 @@ import "./index.css";
 import "./northeastern.png";
 
 function KanbasNavigation() {
-    const links = ["Account", "Dashboard", "Courses", "Calendar", "Inbox", "History", "Studio", "Commons", "Help"]
-    const logo = require('./northeastern.png');
+  const links = ["Account", "Dashboard", "Courses", "Calendar", "Inbox", "History", "Studio", "Commons", "Help"]
+  const logo = require('./northeastern.png');
 
 
   const linkToIconMap = {
@@ -22,16 +22,16 @@ function KanbasNavigation() {
     Courses: <FaBook className="wd-icon" />,
     Calendar: <BsFillCalendar2WeekFill className="wd-icon" />,
     Inbox: <FaEnvelopeOpen className="wd-icon" />,
-    History: <FaClock className="wd-icon"/>,
-    Studio: <FaDesktop className="wd-icon"/>,
-    Commons:<FaSignOutAlt className="wd-icon"/>,
-    Help: <FaQuestionCircle className="wd-icon"/>,
+    History: <FaClock className="wd-icon" />,
+    Studio: <FaDesktop className="wd-icon" />,
+    Commons: <FaSignOutAlt className="wd-icon" />,
+    Help: <FaQuestionCircle className="wd-icon" />,
   };
 
   const { pathname } = useLocation();
   return (
     <div className="list-group wd-kanbas-navigation" style={{ width: 100 }}>
-      <img src = {logo}/>
+      <img src={logo} />
       {links.map((link, index) => (
         <Link
           key={index}
@@ -39,7 +39,7 @@ function KanbasNavigation() {
           className={`list-group-item ${pathname.includes(link) && "active"}`}
         >
           {linkToIconMap[link]}
-          <br/>
+          <br />
           {link}
         </Link>
       ))}
