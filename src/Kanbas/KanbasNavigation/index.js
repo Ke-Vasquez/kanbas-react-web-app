@@ -30,7 +30,7 @@ function KanbasNavigation() {
 
   const { pathname } = useLocation();
   return (
-    <div className="list-group wd-kanbas-navigation" style={{ width: 125 }}>
+    <div className="list-group wd-kanbas-navigation" style={{ width: 100 }}>
       <img src = {logo}/>
       {links.map((link, index) => (
         <Link

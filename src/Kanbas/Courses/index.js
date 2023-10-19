@@ -1,20 +1,21 @@
 import db from "../../Kanbas/Database";
-import {Navigate, Route, Routes, useParams } from "react-router-dom";
+import {useParams, Routes, Route, Navigate, useLocation,pathname } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import "./index.css"
 import CourseNavigation from "../CourseNavigation";
 
 function Courses() {
   const { courseId } = useParams();
+  const {pathname} = useLocation();
   const course = db.courses.find((course) => course._id === courseId);
-  const section = course.name + " " +course._id;
+  const [empty, kanbas, courses, id, screen] = pathname.split("/");
   return (
     <div>
         <div className="wd-course-main">
             <div className="wd-vertical-line-div">
                 <FaBars className="wd-vertical-lines"/>
             </div>
-            <h2> {section}  </h2>
+            <h3>{course.name} {course._id} > {screen} </h3>
         </div>
         <hr className="wd-hrs"/>
        <div>
@@ -40,6 +41,7 @@ function Courses() {
           </Routes>
         </div>
       </div>
+
        </div>
     </div>
   );
