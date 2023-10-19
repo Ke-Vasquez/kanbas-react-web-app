@@ -1,0 +1,22 @@
+.wd-course-main{
+    color: red;
+    padding-left: 50px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wd-course-main .wd-vertical-line-div {
+    padding-right: 25px;
+    padding-bottom: 5px;
+}
+
+.wd-course-main .wd-vertical-lines {
+    font-size: 1.5rem;
+
+}
+
+.wd-course-main hr {
+    margin: 30px -20px 20px;
+    border: 0;
+}
