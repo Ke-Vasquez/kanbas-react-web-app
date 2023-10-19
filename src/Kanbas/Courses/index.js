@@ -9,13 +9,15 @@ function Courses() {
   const {pathname} = useLocation();
   const course = db.courses.find((course) => course._id === courseId);
   const [empty, kanbas, courses, id, screen] = pathname.split("/");
+  const preCrumb = course.name + " " + course._id + " " + ">";
+
   return (
     <div>
         <div className="wd-course-main">
             <div className="wd-vertical-line-div">
                 <FaBars className="wd-vertical-lines"/>
             </div>
-            <h3>{course.name} {course._id} > {screen} </h3>
+            <h3> {preCrumb} {screen} </h3>
         </div>
         <hr className="wd-hrs"/>
        <div>
