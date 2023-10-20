@@ -37,8 +37,8 @@ function ModuleList() {
                   </div>
                   <div className="ms-auto p-2">
                     <FaCheckCircle className="wd-check-green" />
-                    <FaPlus color="grey"/>
-                    <FaEllipsisV />
+                    <FaPlus/>
+                    <FaEllipsisV/>
                   </div>
                 </div>
               </li>

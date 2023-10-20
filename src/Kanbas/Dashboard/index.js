@@ -21,7 +21,7 @@ function Dashboard() {
         {courses.map((course) => (
           <Link key={course._id} to={`/Kanbas/Courses/${course._id}`} className="list-group-item">
             <div className="card wd-card-design">
-            <img class="card-img-top" src= {idToPicMap[course._id]} alt="Card image cap"/>
+            <img className="card-img-top" src= {idToPicMap[course._id]} alt="Card image cap"/>
               <div className="card-body">
                 <h5 className="card-title">
                   {course.name}
