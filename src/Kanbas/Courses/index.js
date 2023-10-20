@@ -25,7 +25,7 @@ function Courses() {
             <h3> {preCrumb} {screen} </h3>
             <div className="wd-student-view-btn">
             <button className="btn wd-student-view-btn-prop">
-              <FaGlasses style={"Color:grey"}/>
+              <FaGlasses style={{color:"grey"}}/>
               Student View
               </button>
             </div>
