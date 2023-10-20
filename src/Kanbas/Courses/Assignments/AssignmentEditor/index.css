@@ -1,0 +1,19 @@
+.wd-assignment-main-div {
+    padding-top: 50px;
+}
+
+.wd-assignment-main-div .wd-button-can {
+    background-color: whitesmoke;
+}
+
+.wd-assignment-main-div .wd-buttons-ontop {
+    text-align: right;
+}
+
+.wd-assignment-main-div .wd-buttons-ontop h9 {
+    color: darkgreen;
+}
+
+.wd-assignment-main-div .wd-buttons-ontop .wd-ellip-button {
+    background-color: whitesmoke;
+}

@@ -5,6 +5,7 @@ import "./styles.css";
 import { FaEllipsisV } from "react-icons/fa";
 import { FaCaretRight } from "react-icons/fa";
 import { FaCheckCircle } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa";
 
 function ModuleList() {
   const { courseId } = useParams();
@@ -16,9 +17,9 @@ function ModuleList() {
         <button className="btn wd-button-styling">View Progress</button>
         <button className="btn wd-button-styling">Publish all</button>
         <button className="btn btn-danger">+ Module</button>
-        <button className="btn wd-button-styling"> <FaEllipsisV className="wd-ellip-img"/> </button>
+        <button className="btn wd-button-styling"> <FaEllipsisV className="wd-ellip-img" /> </button>
       </div>
-      <hr/>
+      <hr />
       <ul className="list-group">
         {
           modules
@@ -33,6 +34,11 @@ function ModuleList() {
                   </div>
                   <div className="wd-mod-name-div">
                     <h5>{module.name}</h5>
+                  </div>
+                  <div className="ms-auto p-2">
+                    <FaCheckCircle className="wd-check-green" />
+                    <FaPlus color="grey"/>
+                    <FaEllipsisV />
                   </div>
                 </div>
               </li>

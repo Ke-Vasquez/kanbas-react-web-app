@@ -1,9 +1,11 @@
 .wd-main-modules-div {
     padding-top: 50px;
+    width:100%;
 }
 
 .wd-main-modules-div .wd-buttons {
   padding-bottom: 10px;
+  
 }
 
 .wd-main-modules-div .wd-button-styling {
@@ -62,4 +64,8 @@
 
   .wd-main-modules-div .wd-right-images {
     justify-content: end;
+  }
+
+  .wd-main-modules-div .wd-check-green {
+    color: green;
   }

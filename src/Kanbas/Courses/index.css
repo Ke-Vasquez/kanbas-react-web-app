@@ -11,6 +11,16 @@
     padding-bottom: 5px;
 }
 
+.wd-course-main .wd-student-view-btn {
+    padding-left: 75vh;
+}
+
+.wd-course-main .wd-student-view-btn-prop {
+    background-color: whitesmoke;
+}
+
+.wd-course-main 
+
 .wd-course-main .wd-vertical-lines {
     font-size: 1.5rem;
 

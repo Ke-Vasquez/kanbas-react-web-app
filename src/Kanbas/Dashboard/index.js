@@ -4,6 +4,11 @@ import "./index.css";
 
 function Dashboard() {
   const courses = db.courses;
+  const idToPicMap = {
+    "RS101" : require("./images/RS101.jpeg"),
+    "RS102" : require("./images/RS102.jpeg"),
+    "RS103" : require("./images/RS103.webp"),
+  };
   return (
     <div className="wd-main-dashboard-elements">
       <h1>Dashboard</h1>
@@ -16,7 +21,7 @@ function Dashboard() {
         {courses.map((course) => (
           <Link key={course._id} to={`/Kanbas/Courses/${course._id}`} className="list-group-item">
             <div className="card wd-card-design">
-            <img class="card-img-top" src="./images/RS101.jpeg" alt="Card image cap"/>
+            <img class="card-img-top" src= {idToPicMap[course._id]} alt="Card image cap"/>
               <div className="card-body">
                 <h5 className="card-title">
                   {course.name}
