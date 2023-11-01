@@ -1,0 +1,71 @@
+.wd-main-modules-div {
+    padding-top: 50px;
+    width:100%;
+}
+
+.wd-main-modules-div .wd-buttons {
+  padding-bottom: 10px;
+  
+}
+
+.wd-main-modules-div .wd-button-styling {
+  background-color: whitesmoke;
+}
+
+.wd-main-modules-div .list-group-item:first-child,
+  .wd-kanbas-navigation .list-group-item:last-child,
+  .wd-kanbas-navigation .list-group-item.active:last-child,
+  .wd-kanbas-navigation .list-group {
+    border-radius: 0px;
+  }
+
+  .wd-main-modules-div .list-group-item:last-child  {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .wd-main-modules-div .list-group-item .wd-list-item {
+    padding-top: 100px;
+  }
+
+  .wd-main-modules-div li {
+    margin-bottom: 30px;
+    border-top: grey;
+    background-color: whitesmoke;
+    align-items: center;
+    width: 75%;
+  }
+
+  .wd-main-modules-div .wd-items-in-mod {
+    align-items: center;
+  }
+
+  .wd-main-modules-div .wd-ellip-img {
+    color: grey;
+    font-size: 1rem;
+  }
+
+  .wd-main-modules-div .wd-carret-img {
+    color: black;
+    font-size: 1rem;
+  }
+
+  .wd-main-modules-div .wd-mod-name-div {
+    padding-top: 10px;
+  }
+
+  .wd-main-modules-div .something {
+    padding-bottom: 0;
+  }
+
+  .wd-main-modules-div .wd-check {
+    color: green;
+  }
+
+  .wd-main-modules-div .wd-right-images {
+    justify-content: end;
+  }
+
+  .wd-main-modules-div .wd-check-green {
+    color: green;
+  }

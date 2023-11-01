@@ -1,0 +1,66 @@
+.wd-assignment-main-div {
+    padding-top: 35px;
+}
+
+.wd-assignment-main-div .wd-top-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wd-assignment-main-div .wd-search {
+    border-radius: 0px;
+}
+
+.wd-assignment-main-div .wd-buttons-on-top {
+    padding-left:55%;
+}
+
+.wd-assignment-main-div .wd-buttons-on-top .wd-buttons {
+    background-color: whitesmoke;
+}
+
+.wd-assignment-main-div .wd-icons {
+    color: grey;
+    border-left: 1rem green;
+}
+
+.wd-assignment-main-div .list-group-item:first-child,
+.wd-assignment-main-div .list-group-item:last-child,
+.wd-assignment-main-div .list-group-item.active:last-child,
+.wd-assignment-main-div.list-group {
+  border-radius: 0px;
+}
+
+.wd-assignment-main-div .wd-list-group {
+    height: 10%;
+    border-left-color: green;
+    border-left-width: 5px;
+    border-radius: 0px
+}
+
+.wd-assignment-main-div .wd-end-of-assignments {
+    float: right;
+}
+
+.wd-assignment-main-div .wd-first-item {
+    display: flex;
+}
+
+.wd-assignment-main-div .wd-links {
+    text-decoration: none;
+    color: black;
+}
+
+.wd-assignment-main-div .wd-pill-div {
+    padding-right: 50px;
+}
+
+.wd-assignment-main-div .wd-pill {
+    background-color: transparent; 
+    border-color: black;
+    padding-right: 10px;
+}
+
+.wd-assignment-main-div .wd-check-green {
+    color: green;
+}

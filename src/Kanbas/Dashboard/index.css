@@ -1,0 +1,24 @@
+.wd-main-dashboard-elements {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.wd-main-dashboard-elements .wd-pub-course-num {
+    padding-left: 20px;
+}
+
+.wd-main-dashboard-elements .wd-card-design {
+    width: 270px;
+    height: auto;
+}
+
+.wd-main-dashboard-elements .list-group {
+    flex-wrap: wrap;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.wd-main-dashboard-elements .list-group-item {
+    border: none;
+    padding-right: 150px;
+}

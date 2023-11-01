@@ -1,0 +1,18 @@
+.wd-course-nav-main {
+    padding-left: 10px;
+}
+
+.wd-course-nav-main .list-group-item {
+    border-radius: 0%;
+    border: none;
+    color: red;
+}
+
+.wd-course-nav-main .list-group-item.active {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-left: 2px black solid;
+    border-radius: 0%;
+}
+

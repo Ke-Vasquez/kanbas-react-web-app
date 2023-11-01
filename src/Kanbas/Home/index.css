@@ -1,0 +1,26 @@
+.wd-status-bar-div {
+    padding-top: 70px;
+}
+
+.wd-status-bar-div .wd-status-list {
+    padding-bottom: 15px;
+}
+
+.wd-status-bar-div .list-group-item {
+    background-color: whitesmoke;
+}
+
+.wd-status-bar-div .wd-assignments a {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-status-icons {
+    color: grey;
+    padding-right: 5px;
+}
+
+.wd-status-bar-div .wd-status-list .list-group-item a {
+    color: black;
+    text-decoration: none;
+}
