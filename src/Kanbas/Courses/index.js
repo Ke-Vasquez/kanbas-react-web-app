@@ -9,11 +9,11 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
 import { FaGlasses } from "react-icons/fa";
 
-function Courses() {
+function Courses({courses}) {
   const { courseId } = useParams();
   const {pathname} = useLocation();
-  const course = db.courses.find((course) => course._id === courseId);
-  const [empty, kanbas, courses, id, screen] = pathname.split("/");
+  const course = courses.find((course) => course._id === courseId);
+  const [empty, kanbas, course_name, id, screen] = pathname.split("/");
   const preCrumb = course.name + " " + course._id + " " + ">";
 
   return (

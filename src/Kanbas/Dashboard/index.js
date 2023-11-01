@@ -9,36 +9,8 @@ const idToPicMap = {
   "RS103": require("./images/RS103.webp"),
 };
 
-function Dashboard() {
-  const [courses, setCourses] = useState(db.courses);
-  const [course, setCourse] = useState({
-    name: "New Course", number: "New Number",
-    startDate: "2023-09-10", endDate: "2023-12-15",
-  });
-
-  const updateCourse = () => {
-    setCourses(
-      courses.map((c) => {
-        if (c._id === course._id) {
-          return course;
-        } else {
-          return c;
-        }
-      })
-    );
-  };
-
-  const deleteCourse = (courseId) => {
-    setCourses(courses.filter((course) => course._id !== courseId));
-  };
-
-  const addNewCourse = () => {
-    setCourses([...courses,
-    {
-      ...course,
-      _id: new Date().getTime()
-    }]);
-  };
+function Dashboard({ courses, course, setCourse, addNewCourse,
+  deleteCourse, updateCourse }) {
 
   return (
     <div className="wd-main-dashboard-elements">
