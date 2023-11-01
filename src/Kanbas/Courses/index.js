@@ -1,4 +1,3 @@
-import db from "../../Kanbas/Database";
 import {useParams, Routes, Route, Navigate, useLocation,pathname } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import "./index.css"
@@ -25,7 +24,7 @@ function Courses({courses}) {
             <h3> {preCrumb} {screen} </h3>
             <div className="wd-student-view-btn">
             <button className="btn wd-student-view-btn-prop">
-              <FaGlasses style={{color:"grey"}}/>
+              <FaGlasses style={{color:"grey", paddingRight: 2}}/>
               Student View
               </button>
             </div>
