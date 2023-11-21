@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { React, useState } from "react";
-import db from "../Database"
 import "./index.css";
 
 const idToPicMap = {
@@ -38,15 +37,15 @@ function Dashboard({ courses, course, setCourse, addNewCourse,
       <hr />
       <div className="list-group d-flex flex-row mb-3">
         {courses.map((course) => (
-          <Link key={course._id} to={`/Kanbas/Courses/${course._id}`} className="list-group-item p-3">
+          <Link key={course.number} to={`/Kanbas/Courses/${course.number}`} className="list-group-item p-3">
             <div className="card wd-card-design">
-              <img className="card-img-top" src={idToPicMap[course._id]} alt="Card image cap" />
+              <img className="card-img-top" src={idToPicMap["RS102"]} alt="Card image cap" />
               <div className="card-body">
                 <h5 className="card-title">
                   {course.name}
                 </h5>
                 <p className="card-text">
-                  {course._id} <br />
+                  {course.number} <br />
                   {course.endDate}
                 </p>
                 <button className="btn btn-warning" onClick={(event) => {
@@ -57,7 +56,7 @@ function Dashboard({ courses, course, setCourse, addNewCourse,
                 </button>
                 <button className="btn btn-danger" onClick={(event) => {
                   event.preventDefault();
-                  deleteCourse(course._id);
+                  deleteCourse(course._id.$oid);
                 }}>
                   Delete
                 </button>

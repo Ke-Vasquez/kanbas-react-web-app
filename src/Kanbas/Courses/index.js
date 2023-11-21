@@ -4,16 +4,34 @@ import "./index.css"
 import CourseNavigation from "../CourseNavigation";
 import Modules from "../Modules";
 import Home from "../Home";
+import { useState, useEffect } from "react";
+import axios from "axios";
 import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
 import { FaGlasses } from "react-icons/fa";
 
-function Courses({courses}) {
+function Courses() {
   const { courseId } = useParams();
+
+  const [course, setCourse] = useState({});
+
+  const URL = "http://localhost:4000/api/courses";
+  
+  const findCourseById = async (courseId) => {
+    const response = await axios.get(
+      `${URL}/${courseId}`
+    );
+    setCourse(response.data);
+  };
+  useEffect(() => {
+    findCourseById(courseId);
+  }, [courseId]);
+
   const {pathname} = useLocation();
-  const course = courses.find((course) => course._id === courseId);
   const [empty, kanbas, course_name, id, screen] = pathname.split("/");
-  const preCrumb = course.name + " " + course._id + " " + ">";
+  const preCrumb = course.name + " " + course.number + " " + ">";
+  console.log(JSON.stringify(course));
+
 
   return (
     <div>
