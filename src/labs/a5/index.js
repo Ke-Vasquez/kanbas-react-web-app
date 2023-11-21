@@ -4,7 +4,7 @@ import WorkingWithArrays from "./WorkingWithArrays";
 
 
 function Assignment5() {
-  const API_BASE = process.env.REACT_LAB_API_BASE;
+  const API_BASE = process.env.REACT_APP_LAB_BASE;
   const URL = `${API_BASE}/welcome`;
 
     return (
