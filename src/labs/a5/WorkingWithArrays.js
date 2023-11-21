@@ -2,7 +2,11 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 function WorkingWithArrays() {
+    const API_BASE = process.env.REACT_LAB_API_BASE;
+
     const API = "http://localhost:4000/a5/todos";
+    const URL = `${API_BASE}/todos`;
+
     const [todo, setTodo] = useState({
         id: 1,
         title: "NodeJS Assignment",
@@ -12,7 +16,7 @@ function WorkingWithArrays() {
     });
     const [todos, setTodos] = useState([]);
     const fetchTodos = async () => {
-        const response = await axios.get(API);
+        const response = await axios.get(URL);
         setTodos(response.data);
     };
     useEffect(() => {
