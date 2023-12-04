@@ -13,7 +13,7 @@ import "./index.css";
 import "./northeastern.png";
 
 function KanbasNavigation() {
-  const links = ["Login","Account", "Dashboard", "Courses", "Calendar", "Inbox", "History", "Studio", "Commons", "Help"]
+  const links = ["SignUp","Login","Account", "Dashboard", "Courses", "Calendar", "Inbox", "History", "Studio", "Commons", "Help"]
   const logo = require('./northeastern.png');
 
 

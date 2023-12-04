@@ -9,6 +9,7 @@ import axios from "axios";
 import Signin from "../users/signin";
 import Account from "../users/account";
 import UserTable from "../users/table";
+import SignUp from "../users/signup";
 
 const API_BASE = process.env.REACT_APP_API_BASE;
 
@@ -75,6 +76,7 @@ function Kanbas() {
                     <Routes>
                     <Route path="/Login" element={<Signin />} />
                     <Route path="/Users" element={<UserTable />} />
+                    <Route path="/Signup" element={<SignUp />} />
                         <Route path="/" element={<Navigate to="Dashboard" />} />
                         <Route path="Dashboard" element=
                             {<Dashboard courses={courses}

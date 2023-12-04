@@ -7,8 +7,7 @@ function Signin() {
   const navigate = useNavigate();
   const signin = async () => {
     await client.signin(credentials);
-    const path = "/kanbas/Account/";
-    navigate({pathname: path});
+    navigate("/kanbas/Account/");
   };
   return (
     <div style={{paddingLeft: 15}}>
