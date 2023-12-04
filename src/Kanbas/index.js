@@ -6,6 +6,9 @@ import { useState, useEffect } from "react";
 import store from "./store"
 import { Provider } from "react-redux";
 import axios from "axios";
+import Signin from "../users/signin";
+import Account from "../users/account";
+import UserTable from "../users/table";
 
 const API_BASE = process.env.REACT_APP_API_BASE;
 
@@ -70,6 +73,8 @@ function Kanbas() {
                 <KanbasNavigation />
                 <div>
                     <Routes>
+                    <Route path="/Login" element={<Signin />} />
+                    <Route path="/Users" element={<UserTable />} />
                         <Route path="/" element={<Navigate to="Dashboard" />} />
                         <Route path="Dashboard" element=
                             {<Dashboard courses={courses}
@@ -78,7 +83,7 @@ function Kanbas() {
                                 addNewCourse={addNewCourse}
                                 deleteCourse={deleteCourse}
                                 updateCourse={updateCourse} />} />
-                        <Route path="Account" element={<h1>Account</h1>} />
+                        <Route path="/account" element={<Account/>}/>
                         <Route path="Courses/:courseId/*" element={<Courses courses={courses} />} />
                     </Routes>
                 </div>

@@ -8,15 +8,17 @@ import { FaClock } from "react-icons/fa";
 import { FaDesktop } from "react-icons/fa";
 import { FaSignOutAlt } from "react-icons/fa";
 import { FaQuestionCircle } from "react-icons/fa";
+import { FaSignInAlt } from "react-icons/fa";
 import "./index.css";
 import "./northeastern.png";
 
 function KanbasNavigation() {
-  const links = ["Account", "Dashboard", "Courses", "Calendar", "Inbox", "History", "Studio", "Commons", "Help"]
+  const links = ["Login","Account", "Dashboard", "Courses", "Calendar", "Inbox", "History", "Studio", "Commons", "Help"]
   const logo = require('./northeastern.png');
 
 
   const linkToIconMap = {
+    Login: <FaSignInAlt className="wd-icon" />,
     Account: <BiUserCircle className="wd-account" />,
     Dashboard: <FaTachometerAlt className="wd-icon" />,
     Courses: <FaBook className="wd-icon" />,
