@@ -9,6 +9,7 @@ import { FaDesktop } from "react-icons/fa";
 import { FaSignOutAlt } from "react-icons/fa";
 import { FaQuestionCircle } from "react-icons/fa";
 import { FaSignInAlt } from "react-icons/fa";
+import { FaUserPlus } from "react-icons/fa";
 import "./index.css";
 import "./northeastern.png";
 
@@ -19,6 +20,7 @@ function KanbasNavigation() {
 
   const linkToIconMap = {
     Login: <FaSignInAlt className="wd-icon" />,
+    SignUp: <FaUserPlus className="wd-icon" />,
     Account: <BiUserCircle className="wd-account" />,
     Dashboard: <FaTachometerAlt className="wd-icon" />,
     Courses: <FaBook className="wd-icon" />,
