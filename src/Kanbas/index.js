@@ -12,6 +12,7 @@ import UserTable from "../users/table";
 import SignUp from "../users/signup";
 
 const API_BASE = process.env.REACT_APP_API_BASE;
+console.log(API_BASE);
 
 function Kanbas() {
     const [courses, setCourses] = useState([]);
